@@ -6,13 +6,15 @@
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/privacy.css') }}">
 
-  <h1 class="priv_policy_title">{{ _('privacy policy title') }}</h1>
-  <div class="priv_policy_box">
-    {{ _('privacy policy') }}
-    <div class="priv_policy_footer">
-        {{ _('last updated') }}: 19.11.2025
-    </div>
-  </div>
+    <main class="page-content reveal">
+        <h1>{{ _('privacy policy title') }}</h1>
+        <div class="policy-box">
+            <p>{{ _('privacy policy') }}</p>
+            <div class="policy-footer">{{ _('last updated') }}: 19.11.2025</div>
+        </div>
+    </main>
+
+    {% include 'common/footer.html' %}
 
 </body>
 </html>

@@ -1,4 +1,5 @@
 import os, configparser
+from datetime import datetime, timezone
 from flask import Flask, render_template, request, jsonify, send_from_directory
 from flask_babel import Babel
 from flask_babel import lazy_gettext as _
@@ -20,10 +21,10 @@ def get_locale():
 babel = Babel()
 babel.init_app(app, locale_selector=get_locale)
 
-# Set current_locale variable in html
+# Set shared template variables
 @app.context_processor
 def inject_locale():
-    return dict(current_locale=get_locale())
+    return dict(current_locale=get_locale(), current_year=datetime.now(timezone.utc).year)
 
 
 # Home

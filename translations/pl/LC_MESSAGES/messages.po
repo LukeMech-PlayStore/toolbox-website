@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-11-19 15:12+0100\n"
+"POT-Creation-Date: 2026-09-09 15:56+0200\n"
 "PO-Revision-Date: 2025-07-29 13:14+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pl\n"
@@ -17,30 +17,54 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
-#: server.py:24
+#: server.py:33
 msgid "home page title"
-msgstr "LMToolbox - Strona Główna"
+msgstr "LM Toolbox — Strona główna"
 
-#: server.py:29
+#: server.py:38
 msgid "privacy page title"
-msgstr "LMToolbox - Polityka prywatności"
+msgstr "LM Toolbox — Polityka prywatności"
 
-#: server.py:34
-#, fuzzy
+#: server.py:43
 msgid "news page title"
-msgstr "LMToolbox - Strona Główna"
+msgstr "LM Toolbox — Wiadomości"
 
-#: templates/news.html:9
+#: templates/home.html:18
+msgid "closed testing eyebrow"
+msgstr "Zamknięte testy alfa"
+
+#: templates/home.html:20
+msgid "lm toolbox tagline"
+msgstr ""
+"Zestaw przydatnych narzędzi na Androida — obecnie w fazie zamkniętych "
+"testów alfa w Google Play. Aby uzyskać dostęp, poproś mnie o dodanie "
+"Twojego adresu Gmail jako testera."
+
+#: templates/home.html:22
+msgid "Join testing"
+msgstr "Dołącz do testów"
+
+#: templates/home.html:23
+msgid "View on GitHub"
+msgstr "Zobacz na GitHub"
+
+#: templates/news.html:10
 msgid "news title"
-msgstr "LMToolbox - Wiadomości"
+msgstr "Wiadomości"
 
-#: templates/privacy.html:9
+#: templates/news.html:11
+msgid "news note"
+msgstr ""
+"Ten kanał zasila aktualności w aplikacji — nie ma tu nic do zobaczenia "
+"bezpośrednio."
+
+#: templates/privacy.html:10
 msgid "privacy policy title"
 msgstr "Polityka prywatności"
 
-#: templates/privacy.html:11
+#: templates/privacy.html:12
 msgid "privacy policy"
 msgstr ""
 "Aplikacja LMToolbox (org.lukemech.lmtoolbox) nie zbiera, nie przechowuje "
@@ -53,15 +77,33 @@ msgstr ""
 msgid "last updated"
 msgstr "Ostatnia aktualizacja"
 
-#: templates/common/navbar.html:3
+#: templates/common/footer.html:4 templates/common/navbar.html:18
+msgid "Play Store"
+msgstr "Play Store"
+
+#: templates/common/head.html:6
+msgid "meta description"
+msgstr ""
+"LM Toolbox — moja prywatna aplikacja Toolbox na Androida, obecnie w "
+"fazie zamkniętych testów alfa w Google Play."
+
+#: templates/common/navbar.html:10
+msgid "Toggle menu"
+msgstr "Przełącz menu"
+
+#: templates/common/navbar.html:15
 msgid "home navigator"
 msgstr "Strona główna"
 
-#: templates/common/navbar.html:4
+#: templates/common/navbar.html:16
+msgid "news navigator"
+msgstr "Wiadomości"
+
+#: templates/common/navbar.html:17
 msgid "privacy navigator"
 msgstr "Polityka prywatności"
 
-#: templates/common/navbar.html:5
-msgid "news navigator"
-msgstr "Wiadomości"
+#: templates/common/navbar.html:24
+msgid "Toggle theme"
+msgstr "Przełącz motyw"
 

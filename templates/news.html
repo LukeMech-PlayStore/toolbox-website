@@ -6,7 +6,12 @@
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/news.css') }}">
 
-  <h1 class="news title_title">{{ _('news title') }}</h1>
+    <main class="page-content reveal">
+        <h1>{{ _('news title') }}</h1>
+        <p class="news-note">{{ _('news note') }}</p>
+    </main>
+
+    {% include 'common/footer.html' %}
 
 </body>
 </html>

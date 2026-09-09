@@ -1,26 +1,19 @@
-.priv_policy_title {
-    text-align: center;
-    font-size: 2.2rem;
-    color: #343a40;
-    margin-bottom: 1rem;
+.policy-box {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 2rem;
 }
 
-.priv_policy_box {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    border: 1px solid #dee2e6;
-    border-radius: 12px;
-    padding: 1.5rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    line-height: 1.6;
+.policy-box p {
     font-size: 1rem;
 }
 
-.priv_policy_footer {
-    font-style: italic;
-    font-size: 0.85rem;
-    color: #6c757d;
-    text-align: right;
+.policy-footer {
     margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.85rem;
+    text-align: right;
 }

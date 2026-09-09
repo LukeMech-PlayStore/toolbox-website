@@ -1,7 +1,32 @@
-<nav>
-    <ul>
-        <li class="{{ 'active' if current == 'home' else '' }}"><a href="/">{{ _('home navigator') }}</a></li>
-        <li class="{{ 'active' if current == 'privacy' else '' }}"><a href="/privacy">{{ _('privacy navigator') }}</a></li>
-        <li class="{{ 'active' if current == 'news' else '' }}"><a href="/news">{{ _('news navigator') }}</a></li>
-    </ul>
-</nav>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
+
+<header class="site-header">
+    <nav class="navbar">
+        <a class="brand" href="/">
+            <span class="brand-mark"><img class="brand-icon" src="{{ url_for('static', filename='images/ic_launcher-playstore-nobg.png') }}" alt=""></span>
+            <span class="brand-name">LM Toolbox</span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="{{ _('Toggle menu') }}" aria-expanded="false" aria-controls="navLinks">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <a class="{{ 'active' if current == 'home' else '' }}" href="/">{{ _('home navigator') }}</a>
+            <a class="{{ 'active' if current == 'news' else '' }}" href="/news">{{ _('news navigator') }}</a>
+            <a class="{{ 'active' if current == 'privacy' else '' }}" href="/privacy">{{ _('privacy navigator') }}</a>
+            <a class="nav-icon-link" href="https://play.google.com/apps/testing/org.lukemech.lmtoolbox" target="_blank" rel="noopener" aria-label="{{ _('Play Store') }}">
+                <i class="fa-brands fa-google-play"></i>
+            </a>
+            <a class="nav-icon-link" href="https://github.com/orgs/LukeMech-PlayStore/repositories" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <button class="theme-toggle" id="themeToggle" aria-label="{{ _('Toggle theme') }}">
+                <i class="fa-solid fa-moon theme-icon theme-icon-dark"></i>
+                <i class="fa-solid fa-sun theme-icon theme-icon-light"></i>
+            </button>
+        </div>
+    </nav>
+</header>
+
+<script src="{{ url_for('static', filename='js/main.js') }}" defer></script>

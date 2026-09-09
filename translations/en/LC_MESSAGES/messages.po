@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-11-19 15:12+0100\n"
+"POT-Creation-Date: 2026-09-09 15:56+0200\n"
 "PO-Revision-Date: 2025-07-29 13:14+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -16,30 +16,54 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
-#: server.py:24
+#: server.py:33
 msgid "home page title"
-msgstr "LMToolbox - Home"
+msgstr "LM Toolbox — Home"
 
-#: server.py:29
+#: server.py:38
 msgid "privacy page title"
-msgstr "LMToolbox - Privacy policy"
+msgstr "LM Toolbox — Privacy policy"
 
-#: server.py:34
-#, fuzzy
+#: server.py:43
 msgid "news page title"
-msgstr "LMToolbox - Home"
+msgstr "LM Toolbox — News"
 
-#: templates/news.html:9
+#: templates/home.html:18
+msgid "closed testing eyebrow"
+msgstr "Closed alpha testing"
+
+#: templates/home.html:20
+msgid "lm toolbox tagline"
+msgstr ""
+"A collection of handy Android utilities — currently in closed alpha "
+"testing on Google Play. Ask me to add your Gmail address as a tester to "
+"get access."
+
+#: templates/home.html:22
+msgid "Join testing"
+msgstr "Join testing"
+
+#: templates/home.html:23
+msgid "View on GitHub"
+msgstr "View on GitHub"
+
+#: templates/news.html:10
 msgid "news title"
-msgstr "LMToolbox - News"
+msgstr "News"
 
-#: templates/privacy.html:9
+#: templates/news.html:11
+msgid "news note"
+msgstr ""
+"This feed powers the in-app news updates — there's nothing to see here "
+"directly."
+
+#: templates/privacy.html:10
 msgid "privacy policy title"
 msgstr "Privacy policy"
 
-#: templates/privacy.html:11
+#: templates/privacy.html:12
 msgid "privacy policy"
 msgstr ""
 "LMToolbox app (org.lukemech.lmtoolbox) does not collect, store, or "
@@ -52,15 +76,33 @@ msgstr ""
 msgid "last updated"
 msgstr "Last updated"
 
-#: templates/common/navbar.html:3
+#: templates/common/footer.html:4 templates/common/navbar.html:18
+msgid "Play Store"
+msgstr "Play Store"
+
+#: templates/common/head.html:6
+msgid "meta description"
+msgstr ""
+"LM Toolbox — a personal Android toolbox app, currently in closed alpha "
+"testing on Google Play."
+
+#: templates/common/navbar.html:10
+msgid "Toggle menu"
+msgstr "Toggle menu"
+
+#: templates/common/navbar.html:15
 msgid "home navigator"
 msgstr "Home"
 
-#: templates/common/navbar.html:4
+#: templates/common/navbar.html:16
+msgid "news navigator"
+msgstr "News"
+
+#: templates/common/navbar.html:17
 msgid "privacy navigator"
 msgstr "Privacy"
 
-#: templates/common/navbar.html:5
-msgid "news navigator"
-msgstr "News"
+#: templates/common/navbar.html:24
+msgid "Toggle theme"
+msgstr "Toggle theme"
 

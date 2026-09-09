@@ -3,18 +3,30 @@
 
     {% set current = 'home' %}
     {% include 'common/navbar.html' %}
-    
+
     <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
 
-    <div class="main-wrapper">
-        <div class="container">
-            <div class="project-name">LMToolbox</div>
-            <img src="{{ url_for('static', filename='images/ic_launcher-playstore.png') }}" alt="Logo" class="logo">
-        </div>
+    <main>
+        <section class="hero">
+            <div class="aurora" aria-hidden="true">
+                <span class="blob blob-a"></span>
+                <span class="blob blob-b"></span>
+                <span class="blob blob-c"></span>
+            </div>
+            <div class="hero-inner reveal">
+                <img class="hero-icon" src="{{ url_for('static', filename='images/ic_launcher-playstore.png') }}" alt="LM Toolbox">
+                <p class="eyebrow"><i class="fa-solid fa-flask"></i> {{ _('closed testing eyebrow') }}</p>
+                <h1 class="hero-title">LM Toolbox</h1>
+                <p class="hero-tagline">{{ _('lm toolbox tagline') }}</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="https://play.google.com/apps/testing/org.lukemech.lmtoolbox" target="_blank" rel="noopener">{{ _('Join testing') }} <i class="fa-brands fa-google-play"></i></a>
+                    <a class="btn btn-ghost" href="https://github.com/orgs/LukeMech-PlayStore/repositories" target="_blank" rel="noopener">{{ _('View on GitHub') }} <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
 
-        <img src="{{ url_for('static', filename='images/bg_image-playstore.jpg') }}" alt="Background" class="bg-image">
-    </div>
-
+    {% include 'common/footer.html' %}
 
 </body>
 </html>
