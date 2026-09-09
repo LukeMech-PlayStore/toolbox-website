@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-09 15:56+0200\n"
+"POT-Creation-Date: 2026-09-09 16:09+0200\n"
 "PO-Revision-Date: 2025-07-29 13:14+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pl\n"
@@ -50,6 +50,10 @@ msgstr "Dołącz do testów"
 msgid "View on GitHub"
 msgstr "Zobacz na GitHub"
 
+#: templates/home.html:24
+msgid "Contact via email"
+msgstr "Skontaktuj się mailowo"
+
 #: templates/news.html:10
 msgid "news title"
 msgstr "Wiadomości"
@@ -84,8 +88,8 @@ msgstr "Play Store"
 #: templates/common/head.html:6
 msgid "meta description"
 msgstr ""
-"LM Toolbox — moja prywatna aplikacja Toolbox na Androida, obecnie w "
-"fazie zamkniętych testów alfa w Google Play."
+"LM Toolbox — moja prywatna aplikacja Toolbox na Androida, obecnie w fazie"
+" zamkniętych testów alfa w Google Play."
 
 #: templates/common/navbar.html:10
 msgid "Toggle menu"
