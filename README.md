@@ -15,7 +15,8 @@ pybabel init -i translations/messages.pot -d translations -l en
 pybabel update -i translations/messages.pot -d translations
 ```
 
-- Compile
+- Compile (local preview only: `*.mo` and `*.pot` are not committed, the
+  server compiles the `.po` files at every start)
 ```
 pybabel compile -d translations
 ```
