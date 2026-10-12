@@ -1,19 +1,10 @@
 [
     {
-        "title": "Witaj w wiadomościach!",
-        "subtitle": "Kliknij, aby otworzyć artykuł. Aby wyłączyć wiadomości, przejdź do ustawień.",
+        "title": "Witaj w zupełnie nowej aktualizacji!",
+        "subtitle": "Przebudowany podsystem Linuxa, obsługa x86 i zadania w tle. Kliknij, aby zobaczyć zmiany.",
         "imageUrl": "https://img.freepik.com/free-photo/beautiful-natural-landscape_23-2151839236.jpg?semt=ais_hybrid&w=740&q=80",
         "actionUrl": "https://toolbox.lukemech.org",
-        "categories": ["!!!Nowość" ],
-        "createdOn": "2025-11-20_11:15"
-    },
-
-    {
-        "title": "Akt dywersji na kolei",
-        "subtitle": "Co wiemy do tej pory | TVN24",
-        "imageUrl": "https://bi.im-g.pl/im/e7/e6/1e/z32402663AMP,Akt-dywersji-w-powiecie-garwolinskim--16-listopada.jpg",
-        "actionUrl": "https://tvn24.pl/polska/dywersja-na-kolei-co-wiemy-do-tej-pory-st8757465",
-        "categories": ["Kolej", "Wojna"],
-        "createdOn": "2025-11-15_21:00"
+        "categories": ["!!!Nowość"],
+        "createdOn": "2026-10-12_21:00"
     }
 ]

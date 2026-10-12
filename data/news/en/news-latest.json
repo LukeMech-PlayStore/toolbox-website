@@ -1,10 +1,10 @@
 [
     {
-        "title": "Welcome in the news section!",
-        "subtitle": "Click to view articles. To turn off the feed, go to Settings.",
+        "title": "Welcome to the brand new update!",
+        "subtitle": "Rebuilt Linux subsystem, x86 support and background tasks. Click to see what changed.",
         "imageUrl": "https://img.freepik.com/free-photo/beautiful-natural-landscape_23-2151839236.jpg?semt=ais_hybrid&w=740&q=80",
         "actionUrl": "https://toolbox.lukemech.org",
-        "categories": ["!!!New" ],
-        "createdOn": "2025-11-20_11:15"
+        "categories": ["!!!New"],
+        "createdOn": "2026-10-12_21:00"
     }
 ]
