@@ -67,14 +67,117 @@ msgstr ""
 msgid "privacy policy title"
 msgstr "Privacy policy"
 
-#: templates/privacy.html:12
-msgid "privacy policy"
-msgstr ""
-"LMToolbox app (org.lukemech.lmtoolbox) does not collect, store, or "
-"transmit any personal data. The application connects to network only to "
-"update news feed from this website (if user won't turn the feature off). "
-"No analytics, no user tracking, and no third-party data sharing is "
-"performed."
+#: templates/privacy.html
+msgid "privacy intro"
+msgstr "This policy describes how the LM Toolbox app (org.lukemech.lmtoolbox), developed by Łukasz Błaszczyk, handles your data, and when it connects to the internet."
+
+#: templates/privacy.html
+msgid "privacy data title"
+msgstr "Data collected by the developer"
+
+#: templates/privacy.html
+msgid "privacy data"
+msgstr "None. The app has no account, no analytics, no advertising, no crash reporting and no tracking of any kind. Nothing you do in the app or create with it is sent to the developer, sold, or shared with third parties."
+
+#: templates/privacy.html
+msgid "privacy network title"
+msgstr "Internet access"
+
+#: templates/privacy.html
+msgid "privacy network"
+msgstr "The app uses the internet only for the features listed below. Each connection goes straight from your device to the named service which, like any server, sees your IP address and basic request details (such as the app's or tool's identifier)."
+
+#: templates/privacy.html
+msgid "privacy network news"
+msgstr "News feed: on the home screen, at most once every two hours, the app downloads short news about the app (and their images) from toolbox.lukemech.org. The request includes only your device's language, to pick the right translation."
+
+#: templates/privacy.html
+msgid "privacy network rates"
+msgstr "Currency Converter: downloads the daily reference exchange rates published by the European Central Bank (ecb.europa.eu). Nothing about you or your conversions is sent."
+
+#: templates/privacy.html
+msgid "privacy network downloader"
+msgstr "Media Downloader: when you give it a link, the app (using the open-source yt-dlp tool) connects to the website of that link to fetch the media you asked for, and saves it on your device. Those websites' own terms and privacy policies apply; the developer never sees your links or downloads. You are responsible for downloading only content you have the right to download."
+
+#: templates/privacy.html
+msgid "privacy network play"
+msgstr "Tools installed on demand: some tools are delivered as Google Play modules, downloaded by Google Play when you install them, under Google's privacy policy."
+
+#: templates/privacy.html
+msgid "privacy network links"
+msgstr "Links you open (e.g. from the news feed, the settings or a QR code) open in your browser or another app of your choice."
+
+#: templates/privacy.html
+msgid "privacy network security"
+msgstr "All of the app's own connections use encrypted HTTPS."
+
+#: templates/privacy.html
+msgid "privacy device title"
+msgstr "Permissions and data on your device"
+
+#: templates/privacy.html
+msgid "privacy device location"
+msgstr "Location: used only by the compass (and its widget), if you allow it, to show your altitude from GPS. It is processed on your device and never sent anywhere."
+
+#: templates/privacy.html
+msgid "privacy device files"
+msgstr "Files: photos, videos and other files you open, edit, convert or download are processed locally on your device (e.g. by the bundled ExifTool, FFmpeg and Python tools) and stay there."
+
+#: templates/privacy.html
+msgid "privacy device notifications"
+msgstr "Notifications: used only to show the progress of tasks running in the background, such as downloads and conversions."
+
+#: templates/privacy.html
+msgid "privacy device backup"
+msgstr "Settings: stored on your device. If you have Android backup turned on, they may be included in your device's backup to your Google account, under Google's terms."
+
+#: templates/privacy.html
+msgid "privacy server title"
+msgstr "This website"
+
+#: templates/privacy.html
+msgid "privacy server"
+msgstr "toolbox.lukemech.org uses no cookies, analytics or trackers. Like any web server, it may briefly keep technical logs (IP address, time and requested address) for its operation and security; they are not used to identify anyone and are not shared."
+
+#: templates/privacy.html
+msgid "privacy use title"
+msgstr "Use of the app"
+
+#: templates/privacy.html
+msgid "privacy use"
+msgstr "The app is provided free of charge, \"as is\", without any warranty; it is currently in testing and may contain bugs. Use its tools in accordance with the law and the rights of others, including copyright and the terms of the websites you download from. The bundled open-source components are covered by their own licenses, listed in the app's settings."
+
+#: templates/privacy.html
+msgid "privacy deletion title"
+msgstr "Deleting your data"
+
+#: templates/privacy.html
+msgid "privacy deletion"
+msgstr "Since all data stays on your device, you can delete it at any time by clearing the app's data or uninstalling it. Files you saved to your device's storage stay until you delete them."
+
+#: templates/privacy.html
+msgid "privacy children title"
+msgstr "Children"
+
+#: templates/privacy.html
+msgid "privacy children"
+msgstr "The app is not directed at children and knowingly collects no data from anyone, including children."
+
+#: templates/privacy.html
+msgid "privacy changes title"
+msgstr "Changes to this policy"
+
+#: templates/privacy.html
+msgid "privacy changes"
+msgstr "If the app changes how it handles data, this page will be updated before or together with that version, and the date below will change."
+
+#: templates/privacy.html
+msgid "privacy contact title"
+msgstr "Contact"
+
+#: templates/privacy.html
+msgid "privacy contact"
+msgstr "Questions about this policy or the app:"
 
 #: templates/privacy.html:13
 msgid "last updated"

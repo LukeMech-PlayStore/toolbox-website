@@ -68,14 +68,117 @@ msgstr ""
 msgid "privacy policy title"
 msgstr "Polityka prywatności"
 
-#: templates/privacy.html:12
-msgid "privacy policy"
-msgstr ""
-"Aplikacja LMToolbox (org.lukemech.lmtoolbox) nie zbiera, nie przechowuje "
-"ani nie przekazuje żadnych danych osobowych. Aplikacja łączy się z siecią"
-" tylko w celu aktualizacji kanału wiadomości z tej strony (gdy użytkownik"
-" nie wyłączy tej funkcji). Nie zawiera analityki, nie śledzi użytkowników"
-" i nie udostępnia żadnych danych osobom trzecim."
+#: templates/privacy.html
+msgid "privacy intro"
+msgstr "Ta polityka opisuje, jak aplikacja LM Toolbox (org.lukemech.lmtoolbox), tworzona przez Łukasza Błaszczyka, obchodzi się z Twoimi danymi i kiedy łączy się z internetem."
+
+#: templates/privacy.html
+msgid "privacy data title"
+msgstr "Dane zbierane przez twórcę"
+
+#: templates/privacy.html
+msgid "privacy data"
+msgstr "Żadne. Aplikacja nie ma kont, analityki, reklam, raportowania awarii ani żadnego śledzenia. Nic, co robisz w aplikacji lub w niej tworzysz, nie jest wysyłane do twórcy, sprzedawane ani udostępniane osobom trzecim."
+
+#: templates/privacy.html
+msgid "privacy network title"
+msgstr "Dostęp do internetu"
+
+#: templates/privacy.html
+msgid "privacy network"
+msgstr "Aplikacja korzysta z internetu wyłącznie w funkcjach wymienionych poniżej. Każde połączenie idzie bezpośrednio z Twojego urządzenia do wskazanej usługi, która – jak każdy serwer – widzi Twój adres IP i podstawowe dane żądania (np. identyfikator aplikacji lub narzędzia)."
+
+#: templates/privacy.html
+msgid "privacy network news"
+msgstr "Wiadomości: na ekranie głównym, nie częściej niż raz na dwie godziny, aplikacja pobiera krótkie wiadomości o aplikacji (wraz z ich obrazkami) z toolbox.lukemech.org. Żądanie zawiera jedynie język urządzenia, aby wybrać właściwe tłumaczenie."
+
+#: templates/privacy.html
+msgid "privacy network rates"
+msgstr "Przelicznik walut: pobiera dzienne kursy referencyjne publikowane przez Europejski Bank Centralny (ecb.europa.eu). Nie są wysyłane żadne dane o Tobie ani o Twoich przeliczeniach."
+
+#: templates/privacy.html
+msgid "privacy network downloader"
+msgstr "Pobieranie multimediów: gdy podasz link, aplikacja (za pomocą otwartoźródłowego narzędzia yt-dlp) łączy się ze stroną, z której pochodzi ten link, aby pobrać wskazane multimedia, i zapisuje je na Twoim urządzeniu. Obowiązują regulaminy i polityki prywatności tych stron; twórca nigdy nie widzi Twoich linków ani pobrań. Odpowiadasz za to, by pobierać wyłącznie treści, do których pobrania masz prawo."
+
+#: templates/privacy.html
+msgid "privacy network play"
+msgstr "Narzędzia instalowane na żądanie: część narzędzi jest dostarczana jako moduły Google Play, pobierane przez Google Play przy ich instalacji, zgodnie z polityką prywatności Google."
+
+#: templates/privacy.html
+msgid "privacy network links"
+msgstr "Otwierane linki (np. z wiadomości, ustawień lub kodu QR) otwierają się w przeglądarce lub innej wybranej przez Ciebie aplikacji."
+
+#: templates/privacy.html
+msgid "privacy network security"
+msgstr "Wszystkie własne połączenia aplikacji są szyfrowane (HTTPS)."
+
+#: templates/privacy.html
+msgid "privacy device title"
+msgstr "Uprawnienia i dane na urządzeniu"
+
+#: templates/privacy.html
+msgid "privacy device location"
+msgstr "Lokalizacja: używana wyłącznie przez kompas (i jego widżet), jeśli na to pozwolisz, do pokazania wysokości z GPS. Jest przetwarzana na urządzeniu i nigdzie nie jest wysyłana."
+
+#: templates/privacy.html
+msgid "privacy device files"
+msgstr "Pliki: zdjęcia, filmy i inne pliki, które otwierasz, edytujesz, konwertujesz lub pobierasz, są przetwarzane lokalnie na urządzeniu (m.in. przez dołączone ExifTool, FFmpeg i Pythona) i tam pozostają."
+
+#: templates/privacy.html
+msgid "privacy device notifications"
+msgstr "Powiadomienia: używane wyłącznie do pokazywania postępu zadań działających w tle, takich jak pobieranie i konwersja."
+
+#: templates/privacy.html
+msgid "privacy device backup"
+msgstr "Ustawienia: przechowywane na urządzeniu. Jeśli masz włączoną kopię zapasową Androida, mogą trafić do kopii zapasowej urządzenia na Twoim koncie Google, na zasadach Google."
+
+#: templates/privacy.html
+msgid "privacy server title"
+msgstr "Ta strona"
+
+#: templates/privacy.html
+msgid "privacy server"
+msgstr "toolbox.lukemech.org nie używa plików cookie, analityki ani narzędzi śledzących. Jak każdy serwer WWW może przez krótki czas przechowywać logi techniczne (adres IP, czas i żądany adres) na potrzeby działania i bezpieczeństwa; nie służą one do identyfikacji nikogo i nie są udostępniane."
+
+#: templates/privacy.html
+msgid "privacy use title"
+msgstr "Korzystanie z aplikacji"
+
+#: templates/privacy.html
+msgid "privacy use"
+msgstr "Aplikacja jest udostępniana bezpłatnie, „tak jak jest”, bez żadnych gwarancji; obecnie jest w fazie testów i może zawierać błędy. Korzystaj z jej narzędzi zgodnie z prawem i z poszanowaniem praw innych osób, w tym praw autorskich i regulaminów stron, z których pobierasz treści. Dołączone komponenty open source są objęte własnymi licencjami, wymienionymi w ustawieniach aplikacji."
+
+#: templates/privacy.html
+msgid "privacy deletion title"
+msgstr "Usuwanie danych"
+
+#: templates/privacy.html
+msgid "privacy deletion"
+msgstr "Ponieważ wszystkie dane pozostają na urządzeniu, możesz je w każdej chwili usunąć, czyszcząc dane aplikacji lub ją odinstalowując. Pliki zapisane w pamięci urządzenia pozostają, dopóki ich nie usuniesz."
+
+#: templates/privacy.html
+msgid "privacy children title"
+msgstr "Dzieci"
+
+#: templates/privacy.html
+msgid "privacy children"
+msgstr "Aplikacja nie jest skierowana do dzieci i świadomie nie zbiera danych od nikogo, w tym od dzieci."
+
+#: templates/privacy.html
+msgid "privacy changes title"
+msgstr "Zmiany polityki"
+
+#: templates/privacy.html
+msgid "privacy changes"
+msgstr "Jeśli aplikacja zmieni sposób obchodzenia się z danymi, ta strona zostanie zaktualizowana przed taką wersją lub razem z nią, a data poniżej się zmieni."
+
+#: templates/privacy.html
+msgid "privacy contact title"
+msgstr "Kontakt"
+
+#: templates/privacy.html
+msgid "privacy contact"
+msgstr "Pytania dotyczące tej polityki lub aplikacji:"
 
 #: templates/privacy.html:13
 msgid "last updated"
