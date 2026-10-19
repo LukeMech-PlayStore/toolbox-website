@@ -146,7 +146,7 @@ msgstr "Korzystanie z aplikacji"
 
 #: templates/privacy.html
 msgid "privacy use"
-msgstr "Aplikacja jest udostępniana bezpłatnie, „tak jak jest”, bez żadnych gwarancji; obecnie jest w fazie testów i może zawierać błędy. Korzystaj z jej narzędzi zgodnie z prawem i z poszanowaniem praw innych osób, w tym praw autorskich i regulaminów stron, z których pobierasz treści. Dołączone komponenty open source są objęte własnymi licencjami, wymienionymi w ustawieniach aplikacji."
+msgstr "Aplikacja jest sprzedawana przez Google Play: zakupy, płatności i zwroty obsługuje Google zgodnie z warunkami Google Play, a twórca nigdy nie otrzymuje Twoich danych płatniczych. W zakresie dozwolonym przez prawo aplikacja jest udostępniana „tak jak jest”, bez gwarancji; obecnie jest w fazie testów i może zawierać błędy. Nie ogranicza to Twoich ustawowych praw konsumenta. Korzystaj z jej narzędzi zgodnie z prawem i z poszanowaniem praw innych osób, w tym praw autorskich i regulaminów stron, z których pobierasz treści. Dołączone komponenty open source są objęte własnymi licencjami, wymienionymi w ustawieniach aplikacji."
 
 #: templates/privacy.html
 msgid "privacy deletion title"

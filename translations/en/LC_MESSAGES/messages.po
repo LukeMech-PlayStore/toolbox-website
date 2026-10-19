@@ -145,7 +145,7 @@ msgstr "Use of the app"
 
 #: templates/privacy.html
 msgid "privacy use"
-msgstr "The app is provided free of charge, \"as is\", without any warranty; it is currently in testing and may contain bugs. Use its tools in accordance with the law and the rights of others, including copyright and the terms of the websites you download from. The bundled open-source components are covered by their own licenses, listed in the app's settings."
+msgstr "The app is sold through Google Play: purchases, payments and refunds are handled by Google under the Google Play terms, and the developer never receives your payment details. To the extent permitted by law, the app is provided \"as is\", without warranty; it is currently in testing and may contain bugs. This does not limit your statutory consumer rights. Use its tools in accordance with the law and the rights of others, including copyright and the terms of the websites you download from. The bundled open-source components are covered by their own licenses, listed in the app's settings."
 
 #: templates/privacy.html
 msgid "privacy deletion title"
