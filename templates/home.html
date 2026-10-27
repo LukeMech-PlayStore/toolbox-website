@@ -15,13 +15,66 @@
             </div>
             <div class="hero-inner reveal">
                 <img class="hero-icon" src="{{ url_for('static', filename='images/ic_launcher-playstore.png') }}" alt="LM Toolbox">
-                <p class="eyebrow"><i class="fa-solid fa-flask"></i> {{ _('closed testing eyebrow') }}</p>
+                <p class="eyebrow"><i class="fa-solid fa-code-branch"></i> {{ _('closed testing eyebrow') }}</p>
                 <h1 class="hero-title">LM Toolbox</h1>
                 <p class="hero-tagline">{{ _('lm toolbox tagline') }}</p>
                 <div class="hero-actions">
                     <a class="btn btn-primary" href="https://play.google.com/apps/testing/org.lukemech.lmtoolbox" target="_blank" rel="noopener">{{ _('Join testing') }} <i class="fa-brands fa-google-play"></i></a>
-                    <a class="btn btn-ghost" href="https://github.com/orgs/LukeMech-PlayStore/repositories" target="_blank" rel="noopener">{{ _('View on GitHub') }} <i class="fa-brands fa-github"></i></a>
+                    <a class="btn btn-ghost" href="https://github.com/LukeMech-PlayStore/toolbox-app" target="_blank" rel="noopener">{{ _('View on GitHub') }} <i class="fa-brands fa-github"></i></a>
                     <a class="btn btn-ghost" href="mailto:admin@lukemech.org">{{ _('Contact via email') }} <i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-heading reveal">
+                <h2>{{ _('features title') }}</h2>
+                <p>{{ _('features lead') }}</p>
+            </div>
+            <div class="feature-grid">
+                <article class="feature-card reveal" style="--delay: 0ms">
+                    <i class="fa-solid fa-ruler-combined"></i>
+                    <h3>{{ _('feature measure title') }}</h3>
+                    <p>{{ _('feature measure') }}</p>
+                </article>
+                <article class="feature-card reveal" style="--delay: 80ms">
+                    <i class="fa-solid fa-microchip"></i>
+                    <h3>{{ _('feature electronics title') }}</h3>
+                    <p>{{ _('feature electronics') }}</p>
+                </article>
+                <article class="feature-card reveal" style="--delay: 160ms">
+                    <i class="fa-solid fa-book-open"></i>
+                    <h3>{{ _('feature reference title') }}</h3>
+                    <p>{{ _('feature reference') }}</p>
+                </article>
+                <article class="feature-card reveal" style="--delay: 240ms">
+                    <i class="fa-solid fa-photo-film"></i>
+                    <h3>{{ _('feature media title') }}</h3>
+                    <p>{{ _('feature media') }}</p>
+                </article>
+                <article class="feature-card reveal" style="--delay: 320ms">
+                    <i class="fa-solid fa-coins"></i>
+                    <h3>{{ _('feature finance title') }}</h3>
+                    <p>{{ _('feature finance') }}</p>
+                </article>
+                <article class="feature-card reveal" style="--delay: 400ms">
+                    <i class="fa-solid fa-server"></i>
+                    <h3>{{ _('feature servers title') }}</h3>
+                    <p>{{ _('feature servers') }}</p>
+                </article>
+            </div>
+            <p class="section-note reveal"><i class="fa-brands fa-linux"></i> {{ _('features linux') }}</p>
+        </section>
+
+        <section class="section">
+            <div class="open-source reveal">
+                <h2>{{ _('open source title') }}</h2>
+                <p>{{ _('open source') }}</p>
+                <p>{{ _('open source play') }}</p>
+                <p class="section-note">{{ _('open source brand') }}</p>
+                <div class="hero-actions">
+                    <a class="btn btn-ghost" href="https://github.com/LukeMech-PlayStore/toolbox-app" target="_blank" rel="noopener">{{ _('Source code') }} <i class="fa-brands fa-github"></i></a>
+                    <a class="btn btn-ghost" href="https://github.com/LukeMech-PlayStore/toolbox-linux-subsystem" target="_blank" rel="noopener">{{ _('Linux subsystem') }} <i class="fa-brands fa-linux"></i></a>
                 </div>
             </div>
         </section>

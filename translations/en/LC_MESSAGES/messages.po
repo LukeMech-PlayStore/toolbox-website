@@ -32,14 +32,11 @@ msgstr "LM Toolbox — News"
 
 #: templates/home.html:18
 msgid "closed testing eyebrow"
-msgstr "Closed alpha testing"
+msgstr "Open source · closed testing on Google Play"
 
 #: templates/home.html:20
 msgid "lm toolbox tagline"
-msgstr ""
-"A collection of handy Android utilities — currently in closed alpha "
-"testing on Google Play. Ask me to add your Gmail address as a tester to "
-"get access."
+msgstr "One app, a drawer full of tools for Android: measuring, electronics, media, a Minecraft server and more. Open source, and sold on Google Play, where it is currently in closed testing: ask me to add your Gmail address as a tester to get access."
 
 #: templates/home.html:22
 msgid "Join testing"
@@ -52,6 +49,90 @@ msgstr "View on GitHub"
 #: templates/home.html:24
 msgid "Contact via email"
 msgstr "Contact via email"
+
+#: templates/home.html
+msgid "features title"
+msgstr "What's inside"
+
+#: templates/home.html
+msgid "features lead"
+msgstr "Tools you would otherwise need a dozen apps for, in English and Polish, with no ads, accounts or tracking."
+
+#: templates/home.html
+msgid "feature measure title"
+msgstr "Measure"
+
+#: templates/home.html
+msgid "feature measure"
+msgstr "Ruler, spirit level and compass (both with home screen widgets), sound level meter, light meter, metal detector, vibration meter and a stroboscope / tachometer."
+
+#: templates/home.html
+msgid "feature electronics title"
+msgstr "Electronics"
+
+#: templates/home.html
+msgid "feature electronics"
+msgstr "30 calculators: resistor color and SMD codes, Ohm's law, RC, RL and RLC filters, voltage divider, transistor, op-amp, LED resistor, 555 timer, LM317, PCB trace width, number bases and more."
+
+#: templates/home.html
+msgid "feature reference title"
+msgstr "Reference"
+
+#: templates/home.html
+msgid "feature reference"
+msgstr "29 references: pinouts drawn on screen (Raspberry Pi GPIO, Arduino, USB, HDMI, ATX, OBD-II…) and tables such as E-series, wire gauges, ASCII, thermocouples and car fuses."
+
+#: templates/home.html
+msgid "feature media title"
+msgstr "Media"
+
+#: templates/home.html
+msgid "feature media"
+msgstr "Download, convert and shrink videos, music and images; edit a photo's metadata; make QR codes; check file hashes (MD5, SHA-1, SHA-2, SHA-3, CRC32)."
+
+#: templates/home.html
+msgid "feature finance title"
+msgstr "Finance"
+
+#: templates/home.html
+msgid "feature finance"
+msgstr "A currency converter with the European Central Bank's daily rates; share an amount to it from any app."
+
+#: templates/home.html
+msgid "feature servers title"
+msgstr "Servers"
+
+#: templates/home.html
+msgid "feature servers"
+msgstr "Run your own Minecraft server (Vanilla, Paper, Fabric, Forge or NeoForge) straight from your phone, reachable by your friends through Bore, a Cloudflare tunnel or Tailscale."
+
+#: templates/home.html
+msgid "features linux"
+msgstr "The heavier tools run real Linux programs (Python, FFmpeg, yt-dlp, ExifTool, Java) in a built-in subsystem that the app installs piece by piece, only when a tool needs it. No root, no terminal."
+
+#: templates/home.html
+msgid "open source title"
+msgstr "Open source"
+
+#: templates/home.html
+msgid "open source"
+msgstr "The app's code is public under the GNU GPL v3: read it, learn from it, or build the app yourself."
+
+#: templates/home.html
+msgid "open source play"
+msgstr "Buying it on Google Play is the easy way to get it, with automatic updates, and it's what supports its development. Thank you!"
+
+#: templates/home.html
+msgid "open source brand"
+msgstr "The license covers the code, not the brand: the app's name, icon and Google Play listing aren't under the GPL, so a published fork needs its own name, icon and application ID."
+
+#: templates/home.html
+msgid "Source code"
+msgstr "Source code"
+
+#: templates/home.html
+msgid "Linux subsystem"
+msgstr "Linux subsystem"
 
 #: templates/news.html:10
 msgid "news title"
@@ -117,15 +198,15 @@ msgstr "Permissions and data on your device"
 
 #: templates/privacy.html
 msgid "privacy device location"
-msgstr "Location: used only by the compass (and its widget), if you allow it, to show your altitude from GPS. It is processed on your device and never sent anywhere."
+msgstr "Location: used only by the compass and its widget, if you allow it, to show the altitude from GPS (the widget keeps reading it while it's on your home screen). It is processed on the device and never sent anywhere."
 
 #: templates/privacy.html
 msgid "privacy device files"
-msgstr "Files: photos, videos and other files you open, edit, convert or download are processed locally on your device (e.g. by the bundled ExifTool, FFmpeg and Python tools) and stay there."
+msgstr "Files: photos, videos and other files you open, edit, convert, hash or download are processed locally on your device (by the bundled ExifTool, FFmpeg and Python among others) and stay there."
 
 #: templates/privacy.html
 msgid "privacy device notifications"
-msgstr "Notifications: used only to show the progress of tasks running in the background, such as downloads and conversions."
+msgstr "Notifications: used only to show background work, such as downloads and conversions, a running Minecraft server and live widgets."
 
 #: templates/privacy.html
 msgid "privacy device backup"
@@ -145,7 +226,7 @@ msgstr "Use of the app"
 
 #: templates/privacy.html
 msgid "privacy use"
-msgstr "The app is sold through Google Play: purchases, payments and refunds are handled by Google under the Google Play terms, and the developer never receives your payment details. To the extent permitted by law, the app is provided \"as is\", without warranty; it is currently in testing and may contain bugs. This does not limit your statutory consumer rights. Use its tools in accordance with the law and the rights of others, including copyright and the terms of the websites you download from. The bundled open-source components are covered by their own licenses, listed in the app's settings."
+msgstr "The app is sold through Google Play: purchases, payments and refunds are handled by Google under Google Play's terms, and the developer never receives your payment details. To the extent permitted by law, the app is provided \"as is\", without warranty; it is currently in testing and may contain bugs. This does not limit your statutory consumer rights. Use its tools lawfully and with respect for others' rights, including copyright and the terms of the websites you download from. The app's own code is licensed under the GNU GPL v3, and the bundled open source components are under their own licenses, listed in the app's settings."
 
 #: templates/privacy.html
 msgid "privacy deletion title"
@@ -179,6 +260,34 @@ msgstr "Contact"
 msgid "privacy contact"
 msgstr "Questions about this policy or the app:"
 
+#: templates/privacy.html
+msgid "privacy open source"
+msgstr "The app is open source, so everything below can be checked in its code:"
+
+#: templates/privacy.html
+msgid "privacy network minecraft"
+msgstr "Minecraft server: to create or update a server, the app gets the version lists and server files straight from their publishers (Mojang, PaperMC, FabricMC, Minecraft Forge, NeoForged). Players connect to your server directly, or through a tunnel you turn on; the server and its worlds stay on your device."
+
+#: templates/privacy.html
+msgid "privacy network tunnels"
+msgstr "Server tunnels, only if you turn one on: Bore connects to bore.pub (or a Bore server you choose), and a Cloudflare tunnel connects to Cloudflare with the token you entered; checking a domain for it asks Cloudflare's DNS (cloudflare-dns.com). Those services' terms and privacy policies apply. Tailscale is a separate app, which the server's page only opens."
+
+#: templates/privacy.html
+msgid "privacy device microphone"
+msgstr "Microphone: used only by the sound level meter, if you allow it, and only while its page is open, to measure loudness. Sound is never recorded, saved or sent anywhere."
+
+#: templates/privacy.html
+msgid "privacy device sensors"
+msgstr "Sensors, torch and vibration: the measuring tools read the device's sensors (the vibration meter at a high sampling rate), the stroboscope flashes the torch, and the metal detector can vibrate. None of it leaves the device."
+
+#: templates/privacy.html
+msgid "privacy device awake"
+msgstr "Keeping the device awake: while a Minecraft server runs, the app keeps the phone and its Wi-Fi from sleeping, so players stay connected."
+
+#: templates/privacy.html
+msgid "privacy device share"
+msgstr "\"Share to\" and \"Open with\": some tools appear in Android's share menu; each entry can be turned off in the tool's settings, and the app sees only what you share with it."
+
 #: templates/privacy.html:13
 msgid "last updated"
 msgstr "Last updated"
@@ -189,9 +298,7 @@ msgstr "Play Store"
 
 #: templates/common/head.html:6
 msgid "meta description"
-msgstr ""
-"LM Toolbox — a personal Android toolbox app, currently in closed alpha "
-"testing on Google Play."
+msgstr "LM Toolbox: an open-source Android app with measuring tools, electronics calculators and references, media tools and a Minecraft server. Paid on Google Play, currently in closed testing."
 
 #: templates/common/navbar.html:10
 msgid "Toggle menu"

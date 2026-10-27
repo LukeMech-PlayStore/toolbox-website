@@ -33,14 +33,11 @@ msgstr "LM Toolbox — Wiadomości"
 
 #: templates/home.html:18
 msgid "closed testing eyebrow"
-msgstr "Zamknięte testy alfa"
+msgstr "Open source · zamknięte testy w Google Play"
 
 #: templates/home.html:20
 msgid "lm toolbox tagline"
-msgstr ""
-"Zestaw przydatnych narzędzi na Androida — obecnie w fazie zamkniętych "
-"testów alfa w Google Play. Aby uzyskać dostęp, poproś mnie o dodanie "
-"Twojego adresu Gmail jako testera."
+msgstr "Jedna aplikacja, szuflada pełna narzędzi na Androida: pomiary, elektronika, multimedia, serwer Minecraft i więcej. Otwartoźródłowa, sprzedawana w Google Play, gdzie jest obecnie w fazie zamkniętych testów: aby uzyskać dostęp, poproś mnie o dodanie Twojego adresu Gmail jako testera."
 
 #: templates/home.html:22
 msgid "Join testing"
@@ -53,6 +50,90 @@ msgstr "Zobacz na GitHub"
 #: templates/home.html:24
 msgid "Contact via email"
 msgstr "Skontaktuj się mailowo"
+
+#: templates/home.html
+msgid "features title"
+msgstr "Co jest w środku"
+
+#: templates/home.html
+msgid "features lead"
+msgstr "Narzędzia, do których zwykle potrzeba kilkunastu aplikacji, po polsku i angielsku, bez reklam, kont i śledzenia."
+
+#: templates/home.html
+msgid "feature measure title"
+msgstr "Pomiary"
+
+#: templates/home.html
+msgid "feature measure"
+msgstr "Linijka, poziomica i kompas (oba z widżetami na ekran główny), miernik poziomu dźwięku, luksomierz, wykrywacz metalu, miernik drgań oraz stroboskop / obrotomierz."
+
+#: templates/home.html
+msgid "feature electronics title"
+msgstr "Elektronika"
+
+#: templates/home.html
+msgid "feature electronics"
+msgstr "30 kalkulatorów: kod paskowy i SMD rezystorów, prawo Ohma, filtry RC, RL i RLC, dzielnik napięcia, tranzystor, wzmacniacz operacyjny, rezystor do LED, timer 555, LM317, szerokość ścieżki PCB, systemy liczbowe i więcej."
+
+#: templates/home.html
+msgid "feature reference title"
+msgstr "Ściągawki"
+
+#: templates/home.html
+msgid "feature reference"
+msgstr "29 ściągawek: wyprowadzenia rysowane na ekranie (GPIO Raspberry Pi, Arduino, USB, HDMI, ATX, OBD-II…) oraz tabele, m.in. szeregi E, przekroje przewodów, ASCII, termopary i bezpieczniki samochodowe."
+
+#: templates/home.html
+msgid "feature media title"
+msgstr "Multimedia"
+
+#: templates/home.html
+msgid "feature media"
+msgstr "Pobieraj, konwertuj i zmniejszaj filmy, muzykę i obrazy; edytuj metadane zdjęć; twórz kody QR; sprawdzaj sumy kontrolne plików (MD5, SHA-1, SHA-2, SHA-3, CRC32)."
+
+#: templates/home.html
+msgid "feature finance title"
+msgstr "Finanse"
+
+#: templates/home.html
+msgid "feature finance"
+msgstr "Przelicznik walut z dziennymi kursami Europejskiego Banku Centralnego; udostępnij mu kwotę z dowolnej aplikacji."
+
+#: templates/home.html
+msgid "feature servers title"
+msgstr "Serwery"
+
+#: templates/home.html
+msgid "feature servers"
+msgstr "Uruchom własny serwer Minecraft (Vanilla, Paper, Fabric, Forge lub NeoForge) prosto z telefonu, dostępny dla znajomych przez Bore, tunel Cloudflare lub Tailscale."
+
+#: templates/home.html
+msgid "features linux"
+msgstr "Cięższe narzędzia uruchamiają prawdziwe programy linuksowe (Python, FFmpeg, yt-dlp, ExifTool, Java) we wbudowanym podsystemie, który aplikacja instaluje po kawałku, dopiero gdy narzędzie go potrzebuje. Bez roota i bez terminala."
+
+#: templates/home.html
+msgid "open source title"
+msgstr "Otwarte źródła"
+
+#: templates/home.html
+msgid "open source"
+msgstr "Kod aplikacji jest publiczny, na licencji GNU GPL v3: możesz go czytać, uczyć się z niego albo samodzielnie zbudować aplikację."
+
+#: templates/home.html
+msgid "open source play"
+msgstr "Zakup w Google Play to najprostszy sposób, by ją mieć, z automatycznymi aktualizacjami, i to on wspiera jej rozwój. Dziękuję!"
+
+#: templates/home.html
+msgid "open source brand"
+msgstr "Licencja obejmuje kod, nie markę: nazwa aplikacji, jej ikona i strona w Google Play nie są objęte GPL, więc opublikowany fork musi mieć własną nazwę, ikonę i identyfikator aplikacji."
+
+#: templates/home.html
+msgid "Source code"
+msgstr "Kod źródłowy"
+
+#: templates/home.html
+msgid "Linux subsystem"
+msgstr "Podsystem Linux"
 
 #: templates/news.html:10
 msgid "news title"
@@ -118,15 +199,15 @@ msgstr "Uprawnienia i dane na urządzeniu"
 
 #: templates/privacy.html
 msgid "privacy device location"
-msgstr "Lokalizacja: używana wyłącznie przez kompas (i jego widżet), jeśli na to pozwolisz, do pokazania wysokości z GPS. Jest przetwarzana na urządzeniu i nigdzie nie jest wysyłana."
+msgstr "Lokalizacja: używana wyłącznie przez kompas i jego widżet, jeśli na to pozwolisz, do pokazania wysokości z GPS (widżet odczytuje ją, dopóki jest na ekranie głównym). Jest przetwarzana na urządzeniu i nigdzie nie jest wysyłana."
 
 #: templates/privacy.html
 msgid "privacy device files"
-msgstr "Pliki: zdjęcia, filmy i inne pliki, które otwierasz, edytujesz, konwertujesz lub pobierasz, są przetwarzane lokalnie na urządzeniu (m.in. przez dołączone ExifTool, FFmpeg i Pythona) i tam pozostają."
+msgstr "Pliki: zdjęcia, filmy i inne pliki, które otwierasz, edytujesz, konwertujesz, sprawdzasz (sumy kontrolne) lub pobierasz, są przetwarzane lokalnie na urządzeniu (m.in. przez dołączone ExifTool, FFmpeg i Pythona) i tam pozostają."
 
 #: templates/privacy.html
 msgid "privacy device notifications"
-msgstr "Powiadomienia: używane wyłącznie do pokazywania postępu zadań działających w tle, takich jak pobieranie i konwersja."
+msgstr "Powiadomienia: używane wyłącznie do pokazywania pracy w tle, takiej jak pobieranie i konwersja, działającego serwera Minecraft oraz widżetów na żywo."
 
 #: templates/privacy.html
 msgid "privacy device backup"
@@ -146,7 +227,7 @@ msgstr "Korzystanie z aplikacji"
 
 #: templates/privacy.html
 msgid "privacy use"
-msgstr "Aplikacja jest sprzedawana przez Google Play: zakupy, płatności i zwroty obsługuje Google zgodnie z warunkami Google Play, a twórca nigdy nie otrzymuje Twoich danych płatniczych. W zakresie dozwolonym przez prawo aplikacja jest udostępniana „tak jak jest”, bez gwarancji; obecnie jest w fazie testów i może zawierać błędy. Nie ogranicza to Twoich ustawowych praw konsumenta. Korzystaj z jej narzędzi zgodnie z prawem i z poszanowaniem praw innych osób, w tym praw autorskich i regulaminów stron, z których pobierasz treści. Dołączone komponenty open source są objęte własnymi licencjami, wymienionymi w ustawieniach aplikacji."
+msgstr "Aplikacja jest sprzedawana przez Google Play: zakupy, płatności i zwroty obsługuje Google zgodnie z warunkami Google Play, a twórca nigdy nie otrzymuje Twoich danych płatniczych. W zakresie dozwolonym przez prawo aplikacja jest udostępniana „tak jak jest”, bez gwarancji; obecnie jest w fazie testów i może zawierać błędy. Nie ogranicza to Twoich ustawowych praw konsumenta. Korzystaj z jej narzędzi zgodnie z prawem i z poszanowaniem praw innych osób, w tym praw autorskich i regulaminów stron, z których pobierasz treści. Kod aplikacji jest udostępniany na licencji GNU GPL v3, a dołączone komponenty open source są objęte własnymi licencjami, wymienionymi w ustawieniach aplikacji."
 
 #: templates/privacy.html
 msgid "privacy deletion title"
@@ -180,6 +261,34 @@ msgstr "Kontakt"
 msgid "privacy contact"
 msgstr "Pytania dotyczące tej polityki lub aplikacji:"
 
+#: templates/privacy.html
+msgid "privacy open source"
+msgstr "Aplikacja jest otwartoźródłowa, więc wszystko, co opisano poniżej, można sprawdzić w jej kodzie:"
+
+#: templates/privacy.html
+msgid "privacy network minecraft"
+msgstr "Serwer Minecraft: przy tworzeniu lub aktualizacji serwera aplikacja pobiera listy wersji i pliki serwera bezpośrednio od ich wydawców (Mojang, PaperMC, FabricMC, Minecraft Forge, NeoForged). Gracze łączą się z Twoim serwerem bezpośrednio lub przez włączony przez Ciebie tunel; serwer i jego światy pozostają na Twoim urządzeniu."
+
+#: templates/privacy.html
+msgid "privacy network tunnels"
+msgstr "Tunele serwera, tylko jeśli któryś włączysz: Bore łączy się z bore.pub (lub wybranym przez Ciebie serwerem Bore), a tunel Cloudflare łączy się z Cloudflare za pomocą podanego przez Ciebie tokenu; sprawdzenie domeny dla niego odpytuje DNS Cloudflare (cloudflare-dns.com). Obowiązują regulaminy i polityki prywatności tych usług. Tailscale to osobna aplikacja, którą strona serwera jedynie otwiera."
+
+#: templates/privacy.html
+msgid "privacy device microphone"
+msgstr "Mikrofon: używany wyłącznie przez miernik poziomu dźwięku, jeśli na to pozwolisz, i tylko gdy jego strona jest otwarta, do pomiaru głośności. Dźwięk nigdy nie jest nagrywany, zapisywany ani wysyłany."
+
+#: templates/privacy.html
+msgid "privacy device sensors"
+msgstr "Czujniki, latarka i wibracje: narzędzia pomiarowe odczytują czujniki urządzenia (miernik drgań z wysoką częstotliwością próbkowania), stroboskop błyska latarką, a wykrywacz metalu może wibrować. Nic z tego nie opuszcza urządzenia."
+
+#: templates/privacy.html
+msgid "privacy device awake"
+msgstr "Wybudzenie urządzenia: gdy działa serwer Minecraft, aplikacja nie pozwala telefonowi i jego Wi-Fi zasnąć, aby gracze nie tracili połączenia."
+
+#: templates/privacy.html
+msgid "privacy device share"
+msgstr "„Udostępnij” i „Otwórz w”: niektóre narzędzia pojawiają się w menu udostępniania Androida; każdy wpis można wyłączyć w ustawieniach narzędzia, a aplikacja widzi tylko to, co jej udostępnisz."
+
 #: templates/privacy.html:13
 msgid "last updated"
 msgstr "Ostatnia aktualizacja"
@@ -190,9 +299,7 @@ msgstr "Play Store"
 
 #: templates/common/head.html:6
 msgid "meta description"
-msgstr ""
-"LM Toolbox — moja prywatna aplikacja Toolbox na Androida, obecnie w fazie"
-" zamkniętych testów alfa w Google Play."
+msgstr "LM Toolbox: otwartoźródłowa aplikacja na Androida z narzędziami pomiarowymi, kalkulatorami i ściągawkami elektronicznymi, narzędziami multimedialnymi i serwerem Minecraft. Płatna w Google Play, obecnie w fazie zamkniętych testów."
 
 #: templates/common/navbar.html:10
 msgid "Toggle menu"
